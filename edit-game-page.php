@@ -15,7 +15,7 @@
 				<ul id="nav-bar-links">
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Events</a></li>
-					<li><a href="team-page.html">Teams</a></li>
+					<li><a href="team-page.php">Teams</a></li>
 					<li><a href="about-page.html">About</a></li>
 					<li><a href="index.php">Home</a></li>
 				</ul>
