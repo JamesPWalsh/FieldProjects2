@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box; 
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 2%;
+  margin-left: 5%;  
+  margin-right: 5%;
+}
+
+
+
+  
+  
+  
+  
+.content {
+	background-color: #DCDCDC;
+}
+  
+  
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+
+  
+  
+  
+  
+  
+  
+
+
+/* --- Sign in Content Formatting ---------------------------------------------------------------------------------------------*/
+
+  header, footer {
+    background: #840029;
+    height: 60px;
+  }
+  
+  header, footer, article, nav {
+    padding: 1em;
+  }
+
+  .sign-in-footer {
+	  position: fixed;
+	  bottom:0;
+	  width: 100%;
+  }  
+  
+  
+  
+/* --- Nav-Bar Formatting -----------------------------------------------------------------------------------------------------*/ 
+  .team-logo {
+	display: inline;
+	float: left;
+	width: auto;
+  }
+  
+  li a.active {
+	color: black;
+	font-size: 17px;
+	border: white solid 2px;
+	background-color: #64A41C;
+	}
+  
+  #nav-bar ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+  }
+  
+  #nav-bar li{
+	display: inline;
+	text-decoration: none;
+	width: 100px;
+	padding-right: 7px;
+	float: right;
+  }
+  
+  li a {
+	font-size: 15px;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+  }
+  
+  #nav-bar a{
+	text-decoration: none;
+	text-align: center;
+  }
+  
+  #nav-bar a:hover {
+	color: black;
+	font-size: 17px;
+	border: white solid 2px;
+	background-color: #FAA41A;
+  }
+  
+  
+
+
+
+
+
+  /* --- Slideshow Formatting ---------------------------------------------------------------------------------------------------*/ 
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, adds a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+  

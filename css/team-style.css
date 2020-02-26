@@ -1,0 +1,157 @@
+/* --- Main Page Structure Layout ---------------------------------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+	font-family: Gotham-Narrow, Clio;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .content > article {
+    flex: 4;
+    padding: 2px;
+    min-height: 60vh;
+  }
+  header, footer {
+    background: #840029;
+    height: 60px;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+
+  footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+  }
+
+/* --- Nav-Bar Formatting -----------------------------------------------------------------------------------------------------*/
+  .team-logo {
+	display: inline;
+	float: left;
+	width: auto;
+  }
+
+  li a.active {
+	color: black;
+	font-size: 17px;
+	border: white solid 2px;
+	background-color: #FAA41A;
+	}
+
+  #nav-bar ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+  }
+
+  #nav-bar li{
+	display: inline;
+	text-decoration: none;
+	width: 100px;
+	padding-right: 7px;
+	float: right;
+  }
+
+  li a {
+	font-size: 15px;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+  }
+
+  #nav-bar a{
+	text-decoration: none;
+	text-align: center;
+  }
+
+  #nav-bar a:hover {
+	color: black;
+	font-size: 17px;
+	border: white solid 2px;
+	background-color: #FAA41A;
+  }
+/* --- Main Article Content ---------------------------------------------------------------------------------------------------*/
+
+.about {
+	padding-top: 15px;
+	text-align: center;
+	text-align: center;
+	display: inline-block;
+	/*border: black solid 2px;*/
+}
+
+.game {
+  background: #840029;
+  border: white 2px solid;
+  color: white;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 15%;
+  font-size: 18px;
+}
+
+.game:hover, a:hover {
+  background-color: #FAA41A;
+}
+
+/* --- Profile Cards Formatting -----------------------------------------------------------------------------------------------*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  text-align: center;
+  font-family: arial;
+  margin: 0 auto;
+  width: 300px;
+  border: red 1px solid;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.player-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.player-button:hover, a:hover {
+  opacity: 0.7;
+}
