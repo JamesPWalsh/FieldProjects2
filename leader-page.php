@@ -31,7 +31,8 @@
 					<option value="csgo">CS:GO</option>
 					<option value="smashbro">Smash Bros.</option>
 				</select>
-				<button class="editgamebtn">Edit Page</button>
+				
+				<button class="editgamebtn" onclick="window.location.href = 'edit-game-page.php';">Edit Page</button>
 			</div><!--End of game-edit-->
 			<div class="col-middle" style="border-right: 2px solid black;"><!--Begining of game-delete-->
 				<h2>Delete Pages</h2>
@@ -61,7 +62,7 @@
 				<select>
 					<option value="player">Player</option>
 				</select>
-				<button class="editplayerbtn">Edit Page</button>
+				<button class="editplayerbtn" onclick="window.location.href = 'edit-player-page.php';">Edit Page</button>
 			</div><!--End of player-edit-->
 
 			<div class="col-middle"  style="border-right: 2px solid black; border-top: 2px solid black; border-bottom: 2px solid black;"><!--Begining of add-player/game-->
