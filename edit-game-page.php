@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<div class="col-2">
+	<div class="col-2" id="EGP">
 		<header>
 			<div id = "nav-bar"><!--Beginging of nav-bar-->
 				<img class = "team-logo" src="#" alt = "team-logo"/>

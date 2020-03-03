@@ -54,19 +54,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main-styles.css">
 	<div class="main-column">
 	<header>
-			<!-- Nav-bar Navigation -->
-			<div id="nav-bar">
-				<!-- Team Logo Image -->
-				<img class = "team-logo" src="#" alt = "team-logo"/>
-				<ul id="nav-bar-links">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Events</a></li>
-					<li><a href="updatedTeamPage.php">Teams</a></li>
-					<li><a href="about-page.html">About</a></li>
-					<li><a class="active" href="index.html">Home</a></li>
-					<a href=""></a>
-				</ul>
-			</div><!--End of nav-bar-->
+			<?php include "css/Navbar.html"?>
 		</header>
 
 		<!-- Game Image Slideshow Container -->

@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<div class="col-2">
+	<div class="col-2" id="EPP">
 		<header>
 			<div id = "nav-bar"><!--Begining of nav-bar-->
 				<img class = "team-logo" src="#" alt = "team-logo"/>
@@ -22,7 +22,7 @@
 			</div><!--End of nav-bar-->
 		</header>
 		
-		<h3>Edit Player Information</h3>
+		<h3 id="EPP">Edit Player Information</h3>
 		Username: <input type="text" name="username"><br>
 		E-mail: <input type="text" name="email"><br>
 		Phone Number: <input type="text" name="phone"><br>
