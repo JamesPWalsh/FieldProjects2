@@ -6,6 +6,7 @@
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="css/#">
+	<link rel="stylesheet" type="text/css" href="css/main-styles.css">
 	<div class="col-2">
 		<header>
 			<?php include "css/Navbar.html"?>
