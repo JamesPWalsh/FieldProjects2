@@ -11,7 +11,7 @@
 	<div class="col-2">
 		<header>
 			<div id = "nav-bar"><!--Beginging of nav-bar-->
-				<img class = "team-logo" src="#" alt = "team-logo"/>
+				<img class = "team-logo" src="images/logo.png" alt = "team-logo"/>
 				<ul id="nav-bar-links">
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Events</a></li>
