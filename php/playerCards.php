@@ -13,7 +13,10 @@
 				  font-family: arial;
 				  margin: 0 auto;
 				  width: 300px;
-				  border: red 1px solid;
+				  border: #840029 1px solid;  /*Maroon*/
+				  background-color: white;
+				  text-align: center;
+				  display: inline-block;
 				}";
 				echo "
 				.title {
@@ -34,6 +37,11 @@
 				  font-size: 18px;
 				}";
 				echo "
+				.player-button a {
+				  text-decoration: none;
+				  font-size: 22px;
+				}";
+				echo "
 				a {
 				  text-decoration: none;
 				  font-size: 22px;
@@ -43,6 +51,7 @@
 				.player-button:hover, a:hover {
 				  opacity: 0.7;
 				} </style>";
+				
 				echo "<div class='card'>";
 					echo "<img src='#' alt='" . $row["name"] ."' style='width:100%'>";
 					echo "<h1>Leader: " . $row["name"] . "</h1>";

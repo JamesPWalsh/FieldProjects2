@@ -5,8 +5,7 @@
 	<title>Indian Hills eSports - About Page </title>
 </head>
 <body>
-	<link rel="stylesheet" type="text/css" href="css/main-styles.css">
-	<div class="col-2">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 		<header>
 			<div id = "nav-bar">
 				<?php include "css/Navbar.html"?>

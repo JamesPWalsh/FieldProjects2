@@ -48,10 +48,70 @@
 	?>
 <head>
 	<title>Indian Hills eSports</title>
+	<style>
+	/*About*/
+	.about {
+		padding-top: 15px;
+		text-align: center;
+		display: inline-block;
+	}
+
+	/*About Button*/
+	.about-button {
+	  background: #840029;
+	  border: white 1px solid;
+	  color: white;
+	  display: inline-block;
+	  height: 40px;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 15%;
+	  font-size: 18px;
+	}
+
+	.about-button:hover 
+	{ 
+	background-color: #FAA41A; /*Yellow Gold*/ 
+	}
+	
+	/*meet the leaders*/
+	.game {
+	  background: #840029;
+	  border: white 2px solid;
+	  color: white;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 15%;
+	  font-size: 18px;
+	}
+
+	/*Removes inherited padding*/
+	.game a {
+	  padding: 0;
+	  margin: 0;
+	}
+
+	.game:hover { 
+	background-color: black; 
+	}
+	.team-list {
+		padding-top: 20px;
+		text-align: center;
+		display: inline-block;
+	}
+	.team-profile-container {
+		background-color:#840029; /*Maroon*/
+		display: inline-block;
+		text-align: center;
+	}
+	</style>
 </head>
 
 <body>
-	<link rel="stylesheet" type="text/css" href="css/main-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<div class="main-column">
 	<header>
 			<?php include "css/Navbar.html"?>
