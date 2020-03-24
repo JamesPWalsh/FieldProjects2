@@ -22,7 +22,6 @@
 					<option value="csgo">CS:GO</option>
 					<option value="smashbro">Smash Bros.</option>
 				</select>
-				
 				<button class="editgamebtn" onclick="window.location.href = 'edit-game-page.php';">Edit Page</button>
 			</div><!--End of game-edit-->
 			<div class="col-middle" style="border-right: 2px solid black;"><!--Begining of game-delete-->
