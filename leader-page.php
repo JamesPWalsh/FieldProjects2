@@ -3,7 +3,7 @@
 <!-- James Walsh 01/16/2020 -->
 <!--Last Updated: 01/16/2020-->
 <head>
-<link rel="stylesheet" href="css/leader-style.css">
+<link rel="stylesheet" href="css/Style.css">
 <title>IHCC ESports - Leader Page</title>
 </head>
 

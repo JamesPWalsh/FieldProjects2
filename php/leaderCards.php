@@ -4,45 +4,7 @@
 	if ($result->num_rows > 0) {
 		// output data of each row
 		while($row = $result->fetch_assoc()) {
-			if ($row["leader"] == "yes") {
-				echo "<style>
-				.card {
-				  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-				  display: inline-block;
-				  text-align: center;
-				  font-family: arial;
-				  margin: 0 auto;
-				  width: 300px;
-				  border: #840029 1px solid;
-				}";
-				echo "
-				.title {
-				  color: grey;
-				  font-size: 18px;
-				}";
-				echo "
-				.player-button {
-				  border: none;
-				  outline: 0;
-				  display: inline-block;
-				  padding: 8px;
-				  color: white;
-				  background-color: #000;
-				  text-align: center;
-				  cursor: pointer;
-				  width: 100%;
-				  font-size: 18px;
-				}";
-				echo "
-				a {
-				  text-decoration: none;
-				  font-size: 22px;
-				  color: black;
-				}
-
-				.player-button:hover, a:hover {
-				  opacity: 0.7;
-				} </style>";
+			if ($row["leader"] == "yes") { 
 				echo "<div class='card'>";
 					echo "<img src='#' alt='" . $row["name"] ."' style='width:100%'>";
 					echo "<h1>". $row["game_name"] ." Leader: </h1>";
