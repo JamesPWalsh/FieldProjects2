@@ -4,7 +4,7 @@
 	if ($result->num_rows > 0) {
 		// output data of each row
 		while($row = $result->fetch_assoc()) {
-			if ($row["leader"] == "yes") {
+			if ($row["leader"] == "yes") { 
 				echo "<div class='card'>";
 					echo "<img src='#' alt='" . $row["name"] ."' style='width:100%'>";
 					echo "<h1>". $row["game_name"] ." Leader: </h1>";

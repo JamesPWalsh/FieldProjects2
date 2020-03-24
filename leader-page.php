@@ -3,23 +3,14 @@
 <!-- James Walsh 01/16/2020 -->
 <!--Last Updated: 01/16/2020-->
 <head>
-<link rel="stylesheet" href="css/leader-style.css">
+<link rel="stylesheet" href="css/Style.css">
 <title>IHCC ESports - Leader Page</title>
 </head>
 
 <body>
 	<div class="col-2">
 		<header>
-			<div id = "nav-bar"><!--Begining of nav-bar-->
-				<img class = "team-logo" src="#" alt = "team-logo"/>
-				<ul id="nav-bar-links">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Events</a></li>
-					<li><a href="team-page.php">Teams</a></li>
-					<li><a href="about-page.html">About</a></li>
-					<li><a href="index.php">Home</a></li>
-				</ul>
-			</div><!--End of nav-bar-->
+			<?php include "css/Navbar.html"?>
 		</header>
 		
 		<div class="col-container"><!--Begining of top-row-->
@@ -31,9 +22,7 @@
 					<option value="csgo">CS:GO</option>
 					<option value="smashbro">Smash Bros.</option>
 				</select>
-				<form action="edit-game-page.php">
-				<button class="editgamebtn">Edit Page</button>
-				</form>
+				<button class="editgamebtn" onclick="window.location.href = 'edit-game-page.php';">Edit Page</button>
 			</div><!--End of game-edit-->
 			<div class="col-middle" style="border-right: 2px solid black;"><!--Begining of game-delete-->
 				<h2>Delete Pages</h2>
@@ -63,9 +52,7 @@
 				<select>
 					<option value="player">Player</option>
 				</select>
-				<form action="edit-player-page.php">
-				<button class="editplayerbtn">Edit Page</button>
-				</form>
+				<button class="editplayerbtn" onclick="window.location.href = 'edit-player-page.php';">Edit Page</button>
 			</div><!--End of player-edit-->
 
 			<div class="col-middle"  style="border-right: 2px solid black; border-top: 2px solid black; border-bottom: 2px solid black;"><!--Begining of add-player/game-->

@@ -48,25 +48,73 @@
 	?>
 <head>
 	<title>Indian Hills eSports</title>
+	<style>
+	/* --- Slideshow Formatting ---------------------------------------------------------------------------------------------------*/ 
+
+	.mySlides {display: none}
+	img {vertical-align: middle;}
+
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 100%;
+	  max-height: 90%;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -22px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, adds a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+	
+	</style>
 </head>
 
 <body>
-	<link rel="stylesheet" type="text/css" href="css/main-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/Style.css">
 	<div class="main-column">
 	<header>
-			<!-- Nav-bar Navigation -->
-			<div id="nav-bar">
-				<!-- Team Logo Image -->
-				<img class = "team-logo" src="#" alt = "team-logo"/>
-				<ul id="nav-bar-links">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Events</a></li>
-					<li><a href="updatedTeamPage.php">Teams</a></li>
-					<li><a href="about-page.html">About</a></li>
-					<li><a class="active" href="index.html">Home</a></li>
-					<a href=""></a>
-				</ul>
-			</div><!--End of nav-bar-->
+			<?php include "css/Navbar.html"?>
 		</header>
 
 		<!-- Game Image Slideshow Container -->

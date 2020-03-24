@@ -8,21 +8,12 @@
 </head>
 
 <body>
-	<div class="col-2">
+	<div class="col-2" id="EPP">
 		<header>
-			<div id = "nav-bar"><!--Begining of nav-bar-->
-				<img class = "team-logo" src="#" alt = "team-logo"/>
-				<ul id="nav-bar-links">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Events</a></li>
-					<li><a href="team-page.php">Teams</a></li>
-					<li><a href="about-page.html">About</a></li>
-					<li><a href="index.php">Home</a></li>
-				</ul>
-			</div><!--End of nav-bar-->
+			<?php include "css/Navbar.html"?>
 		</header>
 		
-		<h3>Edit Player Information</h3>
+		<h3 id="EPP">Edit Player Information</h3>
 		Username: <input type="text" name="username"><br>
 		E-mail: <input type="text" name="email"><br>
 		Phone Number: <input type="text" name="phone"><br>

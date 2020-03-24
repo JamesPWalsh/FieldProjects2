@@ -8,18 +8,9 @@
 </head>
 
 <body>
-	<div class="col-2">
+	<div class="col-2" id="EGP">
 		<header>
-			<div id = "nav-bar"><!--Beginging of nav-bar-->
-				<img class = "team-logo" src="images/logo.png" alt = "team-logo"/>
-				<ul id="nav-bar-links">
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Events</a></li>
-					<li><a href="team-page.php">Teams</a></li>
-					<li><a href="about-page.html">About</a></li>
-					<li><a href="index.php">Home</a></li>
-				</ul>
-			</div><!--End of nav-bar-->
+			<?php include "css/Navbar.html"?>
 		</header>
 		
 		<h3>Edit Game Information</h3>
@@ -36,5 +27,4 @@
 		
 		<footer>Footer - eSports Links and Info</footer>
 </body>
-
 </html>

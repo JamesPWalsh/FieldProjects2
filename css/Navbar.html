@@ -1,0 +1,74 @@
+<style>
+#nav-bar {
+	background-color:#840029;
+}
+
+/*eSports Logo*/
+.team-logo {
+  display: inline;
+  float: left;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-top: 2px;
+  width: auto;
+  width: 110px;
+  height: 40px;
+}
+
+/*Highlights current page nav-button*/
+#nav-bar li a.active {
+  color: black;
+  font-size: 17px;
+  border: white solid 2px;
+  background-color: #FAA41A; /*Yellow Gold*/
+}
+
+#nav-bar ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#nav-bar li{
+  display: inline;
+  text-decoration: none;
+  width: 100px;
+  padding-right: 7px;
+  float: right;
+}
+
+#nav-bar li a {
+  font-size: 15px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  text-align: center;
+}
+
+#nav-bar a:hover {
+  color: black;
+  font-size: 17px;
+  border: white solid 1px;
+  background-color: #FAA41A; /*Yellow Gold*/
+</style>
+  
+
+<div id="nav-bar">
+	<!-- Team Logo Image -->
+	<img class = "team-logo" src="images/team-logo.jpg" alt = "team-logo"/>
+	<ul id="nav-bar-links">
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Events</a></li>
+		<li><a href="team-page.php">Teams</a></li>
+		<li><a href="about-page.php">About</a></li>
+		<li><a class="active" href="index.php">Home</a></li>
+		<a href=""></a>
+	</ul>
+</div><!--End of nav-bar-->
