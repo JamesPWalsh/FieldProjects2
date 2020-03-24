@@ -13,7 +13,7 @@
 				  font-family: arial;
 				  margin: 0 auto;
 				  width: 300px;
-				  border: red 1px solid;
+				  border: #840029 1px solid;
 				}";
 				echo "
 				.title {

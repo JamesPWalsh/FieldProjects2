@@ -5,19 +5,6 @@
 		// output data of each row
 		while($row = $result->fetch_assoc()) {
 			if ($row["leader"] == "yes") {
-				echo "<style>
-				.card {
-				  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-				  display: inline-block;
-				  text-align: center;
-				  font-family: arial;
-				  margin: 0 auto;
-				  width: 300px;
-				  border: #840029 1px solid;  /*Maroon*/
-				  background-color: white;
-				  text-align: center;
-				  display: inline-block;
-				}";
 				echo "
 				.title {
 				  color: grey;
