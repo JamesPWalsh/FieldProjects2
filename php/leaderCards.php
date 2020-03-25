@@ -17,7 +17,7 @@
 							<a href='#'><i class='fa fa-linkedin'></i></a>  
 							<a href='#'><i class='fa fa-facebook'></i></a> 
 						</div>";
-					 echo "<p><form action='playerpage.php' method='get'><button type='submit' class='player-button' name='name' value='" . $row["name"] . "'>View Profile</button></form></p>";
+					 echo "<p><form action='player-page.php' method='get'><button type='submit' class='player-button' name='name' value='" . $row["name"] . "'>View Profile</button></form></p>";
 				echo "</div>";//End of card
 				}
 			}
