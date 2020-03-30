@@ -109,6 +109,11 @@
 /* --- CSS ---------------------------------------------------------------------------------------------------*/ 
 
 /*Leaders-Page CSS*/
+	.leader-col-2 {
+	display: flex;
+	flex-direction: column;
+	flex: 5;
+	}
 	/*Start of column formatting*/
 	.leader-col-container {
 			table-layout: fixed;

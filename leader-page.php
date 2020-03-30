@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<div class="col-2">
+	<div class="leader-col-2">
 		<header>
 			<?php include "css/Navbar.html"?>
 		</header>
