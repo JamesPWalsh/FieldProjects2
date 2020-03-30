@@ -107,3 +107,30 @@
 				
 	
 /* --- CSS ---------------------------------------------------------------------------------------------------*/ 
+
+/*Leaders-Page CSS*/
+	/*Start of column formatting*/
+	.leader-col-container {
+			table-layout: fixed;
+		display: table;
+		width: 100%;
+	}
+
+	.leader-col-right{
+	  display: table-cell;
+	  padding: 16px;
+	  width: 20%;
+	}
+
+	.leader-col-left{
+	  display: table-cell;
+	  padding: 16px;
+	  width: 40%;
+	}
+
+	.leader-col-middle{
+	  display: table-cell;
+	  padding: 16px;
+	  width: 40%;
+	}
+/*End Of Leader CSS*/
