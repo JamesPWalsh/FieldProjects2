@@ -1,7 +1,40 @@
 <!DOCTYPE html>
 <html>
 <!-- James Walsh 01/16/2020 -->
-<!--Last Updated: 01/16/2020-->
+<!--Last Updated: 04/01/2020-->
+<?php
+	//if reloaded, get variable, else set first in table
+	if(isset($_GET['name']))
+	{
+		$search = htmlspecialchars($_GET["name"]);
+		include "php/database.php";
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+
+		$sql = "SELECT * FROM players WHERE game_name = '".$search."'";
+		$result = $conn->query($sql);
+	} else {
+		$search = "Overwatch";
+		include "php/database.php";
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+		$sql = "SELECT game_name FROM games";
+		$result = $conn->query($sql);
+		$row = $result->fetch_assoc();
+		$search = $row["game_name"];
+
+		$sql = "SELECT * FROM players WHERE game_name = '".$search."'";
+		$result = $conn->query($sql);
+	}
+?>
 <head>
 <link rel="stylesheet" href="css/Style.css">
 <title>IHCC ESports - Leader Page</title>
