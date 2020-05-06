@@ -77,6 +77,10 @@
 					reprehendunt vix ei pri.</p>
 				</center>
 				
+				<h2>About the Game</h2>
+				
+				<?php include "php/gameData.php"; ?>
+				
 			</div> <!-- DIV about end -->
 		</main> <!-- MAIN content end -->
 		

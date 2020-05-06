@@ -54,21 +54,83 @@
 
 #nav-bar a:hover {
   color: black;
-  font-size: 17px;
-  border: white solid 1px;
   background-color: #FAA41A; /*Yellow Gold*/
-</style>
+  }
+  @media only screen and (min-width: 905px) {
+	  .dropbtn {
+		display: none;
+	  }
+	  #nav-bar a:hover {
+	  font-size: 17px;
+	  border: white solid 1px;
+	  }
+  }
+  @media only screen and (max-width: 905px) {
   
+	.dropdown {
+	  overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+	  font-size: 16px;  
+	  border: none;
+	  outline: none;
+	  padding: 14px 16px;
+	  margin: 0;
+	  background-color: #FAA41A; /*Yellow Gold*/
+	  color: white;
+	}
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  float: none;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content a:hover {
+	  background-color:#840029;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	  background-color: #840029;
+	  border: black solid 1px;
+	}
+	#nav-bar li{
+		
+	}
+	#home {
+	display: inline-block;
+	}
+  }
+</style>
 
 <div id="nav-bar">
 	<!-- Team Logo Image -->
-	<img class = "team-logo" src="images/team-logo.jpg" alt = "team-logo"/>
+	<a href="index.php"><img class = "team-logo" src="images/team-logo.jpg" alt = "team-logo"/></a>
 	<ul id="nav-bar-links">
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Events</a></li>
-		<li><a href="team-page.php">Teams</a></li>
-		<li><a href="about-page.php">About</a></li>
-		<li><a class="active" href="index.php">Home</a></li>
-		<a href=""></a>
+		<div class="dropdown">
+			<button class="dropbtn">Navigation
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="team-page.php">Teams</a></li>
+				<li><a href="about-page.php">About</a></li>
+			
+				<li id="home"><a class="active" href="index.php">Home</a></li>
+				<!-- Need to hide the sign in/up after someone logs in -->
+				<li><a href="#">Sign in</a></li>
+				<li><a href="#">Sign up</a></li>
+			</div><!-- End DropdownContent -->
+		</div><!-- End Dropdown -->
 	</ul>
 </div><!--End of nav-bar-->
