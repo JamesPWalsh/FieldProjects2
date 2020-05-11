@@ -41,13 +41,13 @@
 </head>
 
 <body>
-	<div class="col-2">
+	<div class="leader-col-2">
 		<header>
 			<?php include "css/Navbar.html"?>
 		</header>
 		
-		<div class="col-container"><!--Begining of top-row-->
-			<div class="col-left"  style="border-right: 2px solid black;"><!--Begining of game-edit-->
+		<div class="leader-col-container"><!--Begining of top-row-->
+			<div class="leader-col-left"  style="border-right: 2px solid black;"><!--Begining of game-edit-->
 				<h2>Edit Games</h2>
 				<select>
 					<option value="overwatch">Overwatch</option>
@@ -57,7 +57,7 @@
 				</select>
 				<button class="editgamebtn" onclick="window.location.href = 'edit-game-page.php';">Edit Page</button>
 			</div><!--End of game-edit-->
-			<div class="col-middle" style="border-right: 2px solid black;"><!--Begining of game-delete-->
+			<div class="leader-col-middle" style="border-right: 2px solid black;"><!--Begining of game-delete-->
 				<h2>Delete Pages</h2>
 				<p>Delete Player/Game</p>
 				<select>
@@ -71,7 +71,7 @@
 				<br>
 			</div><!--End of game-delete-->
 			
-			<div class="col-right"><!--Begining of player-invite-->
+			<div class="leader-col-right"><!--Begining of player-invite-->
 				<h2>Player Invites</h2>
 				<p>Choose Team: Invite Link</p>
 				<button class="invitebtn">Generate Invite Link</button>
@@ -79,8 +79,8 @@
 			</div><!--End of player-invite-->
 		</div><!--End of top-row-->
 		
-		<div class="col-container"><!--Begining of bottom-row-->
-			<div class="col-left"  style="border-right: 2px solid black;  border-top: 2px solid black; border-bottom: 2px solid black;"><!--Begining of player-edit-->
+		<div class="leader-col-container"><!--Begining of bottom-row-->
+			<div class="leader-col-left"  style="border-right: 2px solid black;  border-top: 2px solid black; border-bottom: 2px solid black;"><!--Begining of player-edit-->
 				<h2>Edit Players</h2>
 				<select>
 					<option value="player">Player</option>
@@ -88,14 +88,14 @@
 				<button class="editplayerbtn" onclick="window.location.href = 'edit-player-page.php';">Edit Page</button>
 			</div><!--End of player-edit-->
 
-			<div class="col-middle"  style="border-right: 2px solid black; border-top: 2px solid black; border-bottom: 2px solid black;"><!--Begining of add-player/game-->
+			<div class="leader-col-middle"  style="border-right: 2px solid black; border-top: 2px solid black; border-bottom: 2px solid black;"><!--Begining of add-player/game-->
 				<h2>Add Pages</h2>
 				<p>Add Game</p>
 				<input type="text" name="newgamename" value="">
 				<button class="addgamebtn">Add New Game</button>
 			</div><!--End of add-player/game-->
 
-			<div class="col-right" style="border-bottom: 2px solid black;"><!--Empty row-->
+			<div class="leader-col-right" style="border-bottom: 2px solid black;"><!--Empty row-->
 			</div>			
 		</div><!--End of bottom-row-->
 		
